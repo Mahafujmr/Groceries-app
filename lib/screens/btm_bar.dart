@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:grocery_ui/provider/dark_theme_provider.dart';
-import 'package:grocery_ui/screens/cart.dart';
 import 'package:grocery_ui/screens/categories.dart';
 import 'package:grocery_ui/screens/home_screens.dart';
 import 'package:grocery_ui/screens/user.dart';
 import 'package:provider/provider.dart';
+
+import 'cart/cart_screen.dart';
 
 class BottomBarScreen extends StatefulWidget {
   const BottomBarScreen({super.key});
