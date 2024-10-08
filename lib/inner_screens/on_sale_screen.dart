@@ -36,6 +36,7 @@ class OnSaleScreen extends StatelessWidget {
         ),
       ),
       body: _isEmpty
+          // ignore: dead_code
           ? Center(
               child: Padding(
                 padding: const EdgeInsets.all(8.0),

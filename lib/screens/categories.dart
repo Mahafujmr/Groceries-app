@@ -3,6 +3,7 @@ import 'package:grocery_ui/services/utils.dart';
 import 'package:grocery_ui/widgets/categories_widget.dart';
 import 'package:grocery_ui/widgets/text_widget.dart';
 
+// ignore: must_be_immutable
 class CategoriesScreen extends StatelessWidget {
   CategoriesScreen({super.key});
 
